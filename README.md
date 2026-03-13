@@ -1,5 +1,4 @@
 # Hi there, I'm Omar Kandil 👋
-
 ### Data Engineer | Building Scalable Data Solutions
 
 I'm a passionate Data Engineer specializing in real-time streaming pipelines, cloud data architectures, and analytics solutions. Currently working at Orange Egypt, I build and maintain enterprise-grade data systems that process high-volume data streams and enable data-driven decision-making.
@@ -18,15 +17,18 @@ I'm a passionate Data Engineer specializing in real-time streaming pipelines, cl
 
 ## 💼 Professional Experience
 
-**Jr. Data Engineer** @ Orange Egypt *(June 2025 - Present)*
-- Engineering real-time and batch data ingestion pipelines on modern data lakehouse architecture
-- Building enterprise data solutions processing high-volume streaming data
-- Automating ETL workflows and ensuring data quality across pipelines
+**Data Engineer** @ Orange Egypt *(June 2025 - Present)*
+- Engineering real-time and batch data ingestion pipelines using Apache Kafka and Apache Flink
+- Built enterprise data lakehouse using S3 storage with HDFS, Apache Iceberg, and Apache Hive
+- Automated ETL workflows and data validation using Python and Flink Java scripts
+- Troubleshot and optimized streaming pipelines to minimize downtime, maintaining 99%+ data integrity
+- Collaborated with Data Ops and business units to streamline data processes and implement best practices
 
 **Data Engineering Intern** @ PwC-ETIC *(Aug 2024 - Oct 2024)*
 - Designed end-to-end ETL pipelines using Python, PySpark, and Azure Data Factory
-- Built dimensional data models optimized for analytical queries
-- Developed interactive Power BI dashboards for executive decision-making
+- Automated data staging and transformation workflows using Databricks notebooks
+- Built dimensional data models using star schema for optimized analytical queries
+- Developed interactive Power BI dashboards with DAX measures for executive decision-making
 
 ---
 
@@ -59,11 +61,11 @@ End-to-end ETL pipeline with dimensional modeling and Power BI dashboards for sa
 - **Tech**: Python, PySpark, Azure Data Factory, Power BI
 
 ### 🌐 Internet Speed Analysis
-Geospatial analysis examining the digital divide across socioeconomic zones
+Geospatial analysis examining the digital divide across socioeconomic zones in Mexico
 - **Tech**: Python, Pandas, Geospatial libraries
 
 ### 🚢 Titanic Classification
-Machine learning system predicting survival outcomes with passenger data
+Machine learning system predicting survival outcomes with feature engineering on passenger data
 - **Tech**: Python, Scikit-learn
 
 ---
@@ -85,7 +87,6 @@ Nile University, Cairo | *Sep 2020 - Feb 2025*
 ## 📈 GitHub Stats
 
 ![Omar's GitHub stats](https://github-readme-stats.vercel.app/api?username=ohkandil&show_icons=true&theme=radical)
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ohkandil&layout=compact&theme=radical)
 
 ---
