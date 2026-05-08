@@ -56,6 +56,10 @@ I'm a passionate Data Engineer specializing in real-time streaming pipelines, cl
 
 ## 📊 Featured Projects
 
+### 🧭 Nomad Lakehouse *(Current Project)*
+Building a modern lakehouse platform focused on scalable ingestion, transformation, and analytics workflows
+- **Tech**: Apache Kafka, Apache Flink, Apache Iceberg, Apache Hive, S3, Python
+
 ### 🚴 Bicycle Store Data Pipeline & Analytics
 End-to-end ETL pipeline with dimensional modeling and Power BI dashboards for sales insights
 - **Tech**: Python, PySpark, Azure Data Factory, Power BI
