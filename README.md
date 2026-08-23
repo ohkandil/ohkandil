@@ -1,34 +1,54 @@
 # Hi there, I'm Omar Kandil 👋
+
 ### Data Engineer | Building Scalable Data Solutions
 
-I'm a passionate Data Engineer specializing in real-time streaming pipelines, cloud data architectures, and analytics solutions. Currently working at Orange Egypt, I build and maintain enterprise-grade data systems that process high-volume data streams and enable data-driven decision-making.
+I'm a Data Engineer specializing in real-time streaming pipelines, cloud data architectures, and self-hostable lakehouse infrastructure. Currently at Orange Egypt, I build and operate ingestion and ETL systems that keep high-volume data flowing reliably from source to insight.
 
 ---
 
 ## 🚀 What I Do
 
-- **Real-time Data Engineering**: Building streaming pipelines with Apache Kafka and Apache Flink
-- **Data Lakehouse Architecture**: Designing scalable solutions using Apache Iceberg, Hive, and HDFS on S3
-- **ETL Automation**: Creating efficient data workflows with Python, PySpark, and Azure Data Factory
-- **Analytics & Visualization**: Developing Power BI dashboards for actionable business insights
-- **Data Quality & Reliability**: Ensuring 99%+ data integrity through automated validation and monitoring
+- **Real-time Data Engineering**: Streaming ingestion pipelines with Apache Kafka, Apache Flink (Java), and Apache NiFi, built with failure handling and fault-tolerant recovery
+- **Batch ETL Orchestration**: Automated workflows with Apache Airflow, validated with Python, SQL, and Bash
+- **Data Lakehouse Architecture**: Bronze/Silver/Gold medallion pipelines using S3-compatible object storage, Apache Iceberg, and DuckDB
+- **Cloud Data Engineering**: ETL pipelines and dimensional modeling on Azure (Data Factory, Databricks, Fabric)
+- **Analytics & Visualization**: Power BI dashboards with DAX measures for executive decision-making
 
 ---
 
 ## 💼 Professional Experience
 
-**Data Engineer** @ Orange Egypt *(June 2025 - Present)*
-- Engineering real-time and batch data ingestion pipelines using Apache Kafka and Apache Flink
-- Built enterprise data lakehouse using S3 storage with HDFS, Apache Iceberg, and Apache Hive
-- Automated ETL workflows and data validation using Python and Flink Java scripts
-- Troubleshot and optimized streaming pipelines to minimize downtime, maintaining 99%+ data integrity
-- Collaborated with Data Ops and business units to streamline data processes and implement best practices
+**Data Engineer** @ Orange Egypt *(June 2025 – Present)*
+- Engineered and operated real-time and batch ingestion infrastructure using Apache Kafka, Flink (Java), and NiFi, with built-in failure handling and fault-tolerant recovery
+- Migrated and optimized NiFi pipelines running on production infrastructure for improved reliability, performance, and scalability
+- Orchestrated and monitored batch ETL workflows with Apache Airflow, automating validation and health checks using Python, SQL, and Bash
+- Partnered with Data Ops and infrastructure/business teams to deliver solutions aligned with operational and business requirements
 
-**Data Engineering Intern** @ PwC-ETIC *(Aug 2024 - Oct 2024)*
-- Designed end-to-end ETL pipelines using Python, PySpark, and Azure Data Factory
-- Automated data staging and transformation workflows using Databricks notebooks
-- Built dimensional data models using star schema for optimized analytical queries
-- Developed interactive Power BI dashboards with DAX measures for executive decision-making
+**Data Engineering Intern** @ PwC-ETIC *(Aug 2024 – Oct 2024)*
+- Built end-to-end ETL pipelines on Azure with Python, PySpark, and Azure Data Factory, staging and transforming data in Databricks
+- Designed star-schema dimensional models, creating fact and dimension tables for a cloud data warehouse
+- Developed Power BI dashboards with DAX measures to deliver sales insights for executive decision-making
+- Gained early hands-on exposure to Microsoft Fabric during its public beta
+
+---
+
+## 📊 Featured Projects
+
+### 🏞️ Nomad Lakehouse
+[github.com/ohkandil/nomad-lakehouse](https://github.com/ohkandil/nomad-lakehouse)
+
+A self-hostable, production-style data lakehouse running entirely on local infrastructure — eliminating cloud costs while mirroring real-world architecture patterns.
+- Bronze/Silver/Gold medallion pipeline using MinIO (S3-compatible object storage), Apache Iceberg (ACID-compliant table format), and DuckDB for fast local analytics
+- CI/CD pipeline with linting (Ruff), type checking (mypy), automated testing (pytest), and a security gate (pip-audit, Bandit) with remediation scripts
+- Deployed via Docker Compose with systemd service management, health checks, and auto-start on boot
+- Interactive OpenTUI-based setup wizard for guided configuration of credentials, ports, and automation preferences
+- **Tech**: MinIO, Apache Iceberg, DuckDB, Docker Compose, systemd, Python, CI/CD
+
+### 🌊 Data Lake Modernization — Orange Egypt / ACA
+Full ETL infrastructure for historical backfilling and daily incremental ingestion into a modernized data lake.
+- Designed and deployed ingestion pipelines in Apache NiFi with Change Data Capture (CDC) to keep source systems continuously in sync
+- Integrated pipelines with S3-compliant object storage to support the broader data platform
+- **Tech**: Apache NiFi, CDC, S3-compatible storage
 
 ---
 
@@ -37,43 +57,29 @@ I'm a passionate Data Engineer specializing in real-time streaming pipelines, cl
 **Data Engineering:**
 - Streaming: Apache Kafka, Apache Flink
 - Processing: Apache Spark, PySpark
-- Storage: Apache Iceberg, Apache Hive, HDFS, S3
-- Orchestration: Apache NiFi, Azure Data Factory
+- Storage & Formats: Apache Iceberg, Apache Hive, HDFS, S3, CDC
+- Orchestration: Apache Airflow, Apache NiFi
 
 **Cloud Platforms:**
-- Azure: Data Factory, Databricks, Storage
+- Azure: Data Factory, Databricks, Fabric, Storage
 - AWS: S3, EC2, IAM, RDS
 
 **Languages & Tools:**
-- Python, SQL, Java, Bash, C/C++
-- Git, Linux/Unix, Docker
-- Power BI, Pandas, NumPy, Jupyter Notebook
+- Python, SQL (MySQL), Java, Bash, C/C++, HTML/CSS
+- Git, GitLab, Linux/Unix Administration, Docker, Docker Compose, systemd, CI/CD
+
+**Data Analysis & Visualization:**
+- Power BI, Pandas, NumPy, Excel, Jupyter Notebook
 
 **Machine Learning:**
 - PyTorch, Scikit-learn
 
 ---
 
-## 📊 Featured Projects
-
-### 🚴 Bicycle Store Data Pipeline & Analytics
-End-to-end ETL pipeline with dimensional modeling and Power BI dashboards for sales insights
-- **Tech**: Python, PySpark, Azure Data Factory, Power BI
-
-### 🌐 Internet Speed Analysis
-Geospatial analysis examining the digital divide across socioeconomic zones in Mexico
-- **Tech**: Python, Pandas, Geospatial libraries
-
-### 🚢 Titanic Classification
-Machine learning system predicting survival outcomes with feature engineering on passenger data
-- **Tech**: Python, Scikit-learn
-
----
-
 ## 🎓 Education
 
-**Bachelor of Engineering** in Electronics, Communication and Computer Engineering  
-Nile University, Cairo | *Sep 2020 - Feb 2025*
+**Bachelor of Engineering** in Electronics, Communication and Computer Engineering
+Nile University, Cairo | *Sep 2020 – Feb 2025*
 
 ---
 
@@ -81,6 +87,7 @@ Nile University, Cairo | *Sep 2020 - Feb 2025*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/omarhkandil)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omarhkandil@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ohkandil)
 
 ---
 
